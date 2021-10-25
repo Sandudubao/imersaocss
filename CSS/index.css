@@ -1,0 +1,39 @@
+body{
+    background-image: url(https://i2.wp.com/www.csscodelab.com/wp-content/uploads/2020/03/css-background-image-linear-gradient.png?fit=1048%2C670&ssl=1);
+    background-size: auto 100vh;
+    font-family: Arial;
+    height: 100vh;
+}
+
+.menu {
+    background-color:whitesmoke
+}
+
+/*# é para id e . é para classe */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.site-subtitle,
+.site-title {
+    color: cyan;
+    text-align: center;
+}
+
+.site-subtitle{
+    font-style: italic;
+}
